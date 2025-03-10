@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRAC 2", "PRAC 2\PRAC 2.csproj", "{1EA3FCC9-BDA0-404B-84B8-E7440E950007}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSS_files", "CSS_files", "{D56E34F3-228C-4A5B-A585-093CDB865348}"
+	ProjectSection(SolutionItems) = preProject
+		MyGroupTable.css = MyGroupTable.css
+		personal.css = personal.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EA3FCC9-BDA0-404B-84B8-E7440E950007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EA3FCC9-BDA0-404B-84B8-E7440E950007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EA3FCC9-BDA0-404B-84B8-E7440E950007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EA3FCC9-BDA0-404B-84B8-E7440E950007}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF5F4C6B-C7DB-4B03-B210-2B8A368EBF0E}
+	EndGlobalSection
+EndGlobal

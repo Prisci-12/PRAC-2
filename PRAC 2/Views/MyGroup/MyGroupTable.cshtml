@@ -1,0 +1,43 @@
+﻿@using PRAC_2.Models;
+using PRAC_2.Controllers;
+
+<head>
+    <!-- Link to the specific CSS file for this page -->
+    <link rel="stylesheet" href="~/wwwroot/css/MyGroupTable.css" />
+</head>
+
+
+@{
+    ViewBag.Title = "MyGroupTable";
+}
+
+@model List<MyGroup>
+
+<h2>MyGroupTable</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Student Number</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email Address</th>
+            <th>Link for Personal Page</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach ( var members in Model)
+            {
+                <tr>
+                    <td>@members.studentNumber </td>
+                    <td>@members.firstName</td>
+                    <td>@members.lastName</td>
+                    <td>@members.emailAddress</td>
+                    <td><a href="@Url.Action("PersonalPage", "Student", new { id = members.studentNumber })">
+                                  View Personal Page
+</a></td>
+                </tr>
+            }
+    </tbody>
+</table>

@@ -1,0 +1,15 @@
+﻿body
+{
+}
+
+h2, h3 {
+    text-align: left;
+    margin-top: 20px;
+    color: black;
+}
+
+p {
+    text-align: left;
+    margin-top: 20px;
+    color: black;
+}
